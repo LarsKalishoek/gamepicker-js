@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <main>
+        <a id="switchButton" href="#">Switch naar winkelmandje/overzicht</a>
+        <section id="overzicht">
+            <h1>overzicht</h1>
+            <input type="text" id="priceFilterInput">
+            <select name="genre" id="genres">
+                <option value="">Select genre</option>
+            </select>
+            <select name="rating" id="ratings">
+                <option value="">Select rating</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+
+            <button id="filterButton">Filter now!</button>
+            <div id="gameList"></div>
+        </section>
+        <section id="winkelmandje">
+            <h1>Winkelmandje</h1>
+        </section>
+    </main>
+    <script src="games.js"></script>
+    <script src="gamepicker.js"></script>
+</body>
+</html>
